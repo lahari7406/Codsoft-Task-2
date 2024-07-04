@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color:rgb(186, 182, 182);
+    width: 20vw;
+    font-family: "Noto Sans", sans-serif;
+    height: 100vh;
+    cursor: pointer;
+
+}
+.sidebar nav{
+    padding: 10px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 30px;
+}
+.main{
+    /*background-color: yellow;*/
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    /*background-color: rgb(255, 0, 115);*/
+    height: 50vh;
+    width: 80vw;
+    margin: 130px auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Noto Sans", sans-serif;
+
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Source Code Pro", monospace;
+    
+}
+.hello{
+    font-size: 55px;
+    font-family: "Source Code Pro", monospace;
+    
+}
+.name{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Noto Sans", sans-serif;
+
+}
+.about{
+    font-size: 30px;
+    
+}
+.moreabout{
+    font-size: 15px;
+    font-family: "Noto Sans", sans-serif;
+
+    
+}
+.buttons{
+    margin-top: 20px;
+}
+
+.buttons button{
+    padding: 5px 11px;
+    border-radius: 8px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+.devPic img{
+    height: 50vh;
+}
